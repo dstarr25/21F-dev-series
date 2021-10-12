@@ -1,9 +1,9 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 import "./App.scss";
 
 import ButtonExample from './components/buttonexample';
-import Form from './components/Form';
+//import Form from './components/Form';
 import ReduxComponent from './components/reduxComponent/index.js';
 
 //what this returns is what we see on our browser.
@@ -23,7 +23,7 @@ function App() {
 
 
     <img id="myPhoto" src="hey.jpg" alt="me" height={rando}/> <br/>
-    <a target="_blank" href="https://www.coolmathgames.com/"><button className="coolButton">Click for cool site!</button></a>
+    <a href="https://www.coolmathgames.com/"><button className="coolButton">Click for cool site!</button></a>
     <p id="littleComment">Not sure why but the above two elements were on the same line horizontally until I added &lt;br/&gt; inbetween them.</p>
     <h2 className="ListHeader">My life during the past few weeks:</h2>
     <div className="ListContainer">
@@ -43,7 +43,7 @@ function App() {
     }
     </div>
     <h2>Throwback (click fidget spinner for a surprise):</h2>
-    <a target="_blank" href="https://www.amazon.com/fidget-spinner/s?k=fidget+spinner"><img id="fidgetSpinner" src="https://thoughtsonprogramming.files.wordpress.com/2018/11/spinner.gif" alt="fidget spinner"/></a>
+    <a href="https://www.amazon.com/fidget-spinner/s?k=fidget+spinner"><img id="fidgetSpinner" src="https://thoughtsonprogramming.files.wordpress.com/2018/11/spinner.gif" alt="fidget spinner"/></a>
     </div> 
   );
 }
