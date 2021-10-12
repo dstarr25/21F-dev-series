@@ -13,6 +13,7 @@ const ReduxComponent = () => {
     useEffect(() => {
         const action = fetchDemoJson({title: "Redux/Axios demonstration:", body: "click button above to fetch data from jsonplaceholder!"});
         dispatch(action);
+    // eslint-disable-next-line
     },[]);
 
 
