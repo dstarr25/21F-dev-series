@@ -2,9 +2,10 @@
   text-align: center;
 }
 
-body {
-  background: linear-gradient(to bottom right, #00ffff 0%, #0026ff 90%);
-
+html {
+  background: linear-gradient(to bottom right, #00ffff 0%, #0026ff 100%);
+  background-repeat: no-repeat;
+  
 }
 
 .App-logo {
